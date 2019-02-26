@@ -1,8 +1,11 @@
-package com.smelk.sort.typesOfSort;
+package com.smelk.sort.typesofsort;
+
+import java.util.Arrays;
 
 public class MergeSortInPlace {
 
     private static void merge(int arr[], int start, int mid, int end) {
+
         int start2 = mid + 1;
 
         if (arr[mid] <= arr[start2]) {
@@ -30,7 +33,15 @@ public class MergeSortInPlace {
         }
     }
 
+    public static void copyOfArrayForMergeSort(int[] array) {
+        int[] arr;
+        arr = new int[array.length];
+        System.arraycopy(array, 0, arr, 0, array.length);
+        System.out.println("Merge Sort In Place: " + Arrays.toString(mergeSort(arr, 0, array.length - 1)));
+    }
+
     public static int[] mergeSort(int arr[], int l, int r) {
+
         if (l < r) {
 
             int m = l + (r - l) / 2;

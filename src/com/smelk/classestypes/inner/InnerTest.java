@@ -1,6 +1,6 @@
-package com.smelk.classesTypes.innerClass;
+package com.smelk.classestypes.inner;
 
-public class InnerClass {
+public class InnerTest {
 
     public void additionAndDivide(int firstNumber, int secondNumber) {
         Inner inner = new Inner();

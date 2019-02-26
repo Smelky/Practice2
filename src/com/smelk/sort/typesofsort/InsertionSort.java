@@ -1,8 +1,11 @@
-package com.smelk.sort.typesOfSort;
+package com.smelk.sort.typesofsort;
 
 public class InsertionSort {
 
-    public static int[] insertionSort(int[] arrayForSort) {
+    public static int[] insertionSort(int[] array) {
+        int[] arrayForSort;
+        arrayForSort = new int[array.length];
+        System.arraycopy(array, 0, arrayForSort, 0, array.length);
         int key;
         for (int i = 1; i < arrayForSort.length; i++) {
             key = arrayForSort[i];

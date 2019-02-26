@@ -2,11 +2,11 @@ package com.smelk.builder;
 
 public class Car {
 
-    private String name;
-    private String brand;
-    private String color;
-    private int numOfDoors;
-    private int maxSpeed;
+    private final String name;
+    private final String brand;
+    private final String color;
+    private final int numOfDoors;
+    private final int maxSpeed;
 
     public String getName() {
         return name;
@@ -48,22 +48,22 @@ public class Car {
             this.name = name;
         }
 
-        public Builder setBrand(String brand) {
+        public Builder brand(String brand) {
             this.brand = brand;
             return this;
         }
 
-        public Builder setColor(String color) {
+        public Builder color(String color) {
             this.color = color;
             return this;
         }
 
-        public Builder setNumOfDoors(int numOfDoors) {
+        public Builder numOfDoors(int numOfDoors) {
             this.numOfDoors = numOfDoors;
             return this;
         }
 
-        public Builder setMaxSpeed(int maxSpeed) {
+        public Builder maxSpeed(int maxSpeed) {
             this.maxSpeed = maxSpeed;
             return this;
         }

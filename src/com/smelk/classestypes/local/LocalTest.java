@@ -1,6 +1,6 @@
-package com.smelk.classesTypes.localClass;
+package com.smelk.classestypes.local;
 
-public class LocalClass {
+public class LocalTest {
 
     public void methodWithlocalClass() {
         int value = 5;

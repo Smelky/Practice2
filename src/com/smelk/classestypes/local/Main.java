@@ -1,9 +1,9 @@
-package com.smelk.classesTypes.localClass;
+package com.smelk.classestypes.local;
 
 public class Main {
 
     public static void main(String[] args) {
-        LocalClass localClass = new LocalClass();
+        LocalTest localClass = new LocalTest();
         localClass.methodWithlocalClass();
     }
 }

@@ -1,9 +1,9 @@
-package com.smelk.classesTypes.anonymousClass;
+package com.smelk.classestypes.anonymous;
 
 public class Main {
 
     public static void main(String[] args) {
-        AnonymousClass anonymousClass = new AnonymousClass();
+        Anonymous anonymousClass = new Anonymous();
         anonymousClass.Anonymous(2, 2);
     }
 }

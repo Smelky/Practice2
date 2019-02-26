@@ -1,10 +1,10 @@
-package com.smelk.classesTypes.anonymousClass;
+package com.smelk.classestypes.anonymous;
 
-public class AnonymousClass {
+public class Anonymous {
 
     public void Anonymous(int firestValue, int secondValue) {
 
-        AnonymousInterface anonymousInterface = new AnonymousInterface() {
+        AnonymousTest anonymousInterface = new AnonymousTest() {
 
             @Override
             public void Addition() {
