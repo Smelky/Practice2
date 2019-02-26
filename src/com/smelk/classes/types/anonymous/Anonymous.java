@@ -1,4 +1,4 @@
-package com.smelk.classestypes.anonymous;
+package com.smelk.classes.types.anonymous;
 
 public class Anonymous {
 

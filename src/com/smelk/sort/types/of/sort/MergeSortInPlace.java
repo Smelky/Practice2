@@ -1,4 +1,4 @@
-package com.smelk.sort.typesofsort;
+package com.smelk.sort.types.of.sort;
 
 import java.util.Arrays;
 
@@ -34,8 +34,7 @@ public class MergeSortInPlace {
     }
 
     public static void copyOfArrayForMergeSort(int[] array) {
-        int[] arr;
-        arr = new int[array.length];
+        int[] arr = new int[array.length];
         System.arraycopy(array, 0, arr, 0, array.length);
         System.out.println("Merge Sort In Place: " + Arrays.toString(mergeSort(arr, 0, array.length - 1)));
     }

@@ -1,4 +1,4 @@
-package com.smelk.classestypes.local;
+package com.smelk.classes.types.local;
 
 public class Main {
 

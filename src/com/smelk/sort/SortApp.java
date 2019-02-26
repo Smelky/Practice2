@@ -1,10 +1,10 @@
 package com.smelk.sort;
 
-import com.smelk.sort.typesofsort.BubbleSort;
-import com.smelk.sort.typesofsort.InsertionSort;
-import com.smelk.sort.typesofsort.MergeSortInPlace;
-import com.smelk.sort.typesofsort.SelectionSort;
-import com.smelk.sort.typesofsort.ShellSort;
+import com.smelk.sort.types.of.sort.BubbleSort;
+import com.smelk.sort.types.of.sort.InsertionSort;
+import com.smelk.sort.types.of.sort.MergeSortInPlace;
+import com.smelk.sort.types.of.sort.SelectionSort;
+import com.smelk.sort.types.of.sort.ShellSort;
 
 import java.util.Arrays;
 
@@ -16,6 +16,5 @@ public class SortApp {
         MergeSortInPlace.copyOfArrayForMergeSort(arrayForSort);
         System.out.println("Selection Sort : " + Arrays.toString(SelectionSort.selectionSort(arrayForSort)));
         System.out.println("Shell Sort: " + Arrays.toString(ShellSort.shellSort(arrayForSort)));
-
     }
 }

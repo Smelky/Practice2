@@ -1,4 +1,4 @@
-package com.smelk.classestypes.inner;
+package com.smelk.classes.types.inner;
 
 public class InnerTest {
 

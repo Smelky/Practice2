@@ -37,7 +37,7 @@ public class Car {
 
     }
 
-    static class Builder {
+    public static class Builder {
         private String name;
         private String brand;
         private String color;

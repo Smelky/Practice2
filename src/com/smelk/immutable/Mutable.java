@@ -4,6 +4,11 @@ public class Mutable implements Cloneable {
     private int firstNumber;
     private int secondNumber;
 
+    public Mutable(int firstNumber, int secondNumber) {
+        this.firstNumber = firstNumber;
+        this.secondNumber = secondNumber;
+    }
+
     public int getFirstNumber() {
         return firstNumber;
     }

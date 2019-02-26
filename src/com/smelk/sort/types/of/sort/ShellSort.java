@@ -1,10 +1,9 @@
-package com.smelk.sort.typesofsort;
+package com.smelk.sort.types.of.sort;
 
 public class ShellSort {
 
     public static int[] shellSort(int[] array) {
-        int[] arrayForSort;
-        arrayForSort = new int[array.length];
+        int[] arrayForSort = new int[array.length];
         System.arraycopy(array, 0, arrayForSort, 0, array.length);
 
         int h = 1;
@@ -16,7 +15,7 @@ public class ShellSort {
         while (h >= 1) {
             for (int i = h; i < arrayForSort.length; i++) {
                 for (int j = i; j >= h && arrayForSort[j] > arrayForSort[j - h]; j -= h) {
-                    UtilSort.sort(arrayForSort, j, j - h);
+                    UtilSort.swap(arrayForSort, j, j - h);
                 }
             }
             h = h / 3;

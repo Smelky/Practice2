@@ -1,4 +1,4 @@
-package com.smelk.classestypes.nested;
+package com.smelk.classes.types.nested;
 
 public class Main {
 

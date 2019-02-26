@@ -1,10 +1,9 @@
-package com.smelk.sort.typesofsort;
+package com.smelk.sort.types.of.sort;
 
 public class SelectionSort {
 
     public static int[] selectionSort(int[] array) {
-        int[] arrayForSort;
-        arrayForSort = new int[array.length];
+        int[] arrayForSort = new int[array.length];
         System.arraycopy(array, 0, arrayForSort, 0, array.length);
 
         for (int i = 0; i < arrayForSort.length; i++) {
@@ -21,7 +20,7 @@ public class SelectionSort {
             }
 
             if (i != minIndex) {
-                UtilSort.sort(arrayForSort, i, minIndex);
+                UtilSort.swap(arrayForSort, i, minIndex);
             }
         }
         return arrayForSort;
